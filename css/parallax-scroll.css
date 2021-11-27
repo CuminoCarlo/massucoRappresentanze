@@ -1,0 +1,34 @@
+body, html{
+    height: 100%;
+}
+
+.parallax-1, .parallax-2 {
+
+    /*altezza immagine*/
+    height: 350px;
+    width: 100%;
+
+    /*creazione effetto scolling*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-1{
+    /*immagine usata*/
+    background-image: url('../img/img-showroom.jpeg');
+    background-color:white;
+}
+
+.parallax-2{
+    /*immagine usata*/
+    background-image: url('../img/img-torino.jpg');
+}
+
+/*Comandi per dispositivi mobili*/
+@media only screen and (max-device-width: 1025px) {
+  .parallax-1, .parallax-2 {
+    background-attachment: scroll;
+  }
+}
