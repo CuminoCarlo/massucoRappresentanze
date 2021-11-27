@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="it">
+    <!-- Sito internet single-page per massucco rappresentanze -->
+
+    <head>
+        <!-- Meta tag necessari-->
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="Carlo Cumino">
+        <meta name="keyword" content="">
+
+        <title>Massucco Rappresentanze</title>
+
+        <!--CSS Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+
+        <link href="css/lightbox.css" rel="stylesheet">
+
+        <!--CSS principale-->
+        <link href="css/custom.css" rel="stylesheet">
+
+        <!--CSS parallax scroll-->
+        <link href="css/parallax-scroll.css" rel="stylesheet">
+
+        <!--CSS Fontawesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+    </head>
+
+    <body data-spy="scroll" data-target="#scroll" data-offset="0">
+
+        <!-- Barra di navigazione -->
+        <div>
+            <nav id="scroll" class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+                <span class="navbar-brand">Massucco Rappresentanze</span>
+                <div class="collapse navbar-collapse justify-content-md-end" id="navbarsExample08">
+                    <ul class=navbar-nav>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#aboutus">About</a>
+                            </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#brand">Brand</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contatti">Contatti</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <main role="main">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/slider_completini.jpeg" class="d-block w-100" alt="Visione dei completini nello showroom" width="800" height="600">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slider_showroom.jpeg" class="d-block w-100" alt="..." width="800" height="600">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slider_prodotti.jpeg" class="d-block w-100" alt="..." width="800" height="600">
+                        </div>
+                    </div>
+            </div>
+        
+            <!-- About Us-->
+                <div class="container-fluid section" id="aboutus">
+                    <div class="row featurette isabout">
+                        <div class="col-7 offset-md-5  justify-content-start">
+                            <h3 class="featurette-heading">About Us</h3>
+                        </div>
+                        <div class="col-9 offset-md-2 justify-content-center about">
+                            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas volutpat libero et malesuada condimentum. 
+                                Proin ultrices iaculis libero at hendrerit. Sed hendrerit lacus vitae libero consectetur condimentum. 
+                                Nunc sollicitudin gravida nisl. Donec vitae tortor auctor, dignissim arcu nec, sagittis orci. 
+                                Vivamus posuere, erat sit amet dictum vulputate, nibh quam ultricies dolor, ut ornare odio felis ut leo. 
+                                Vivamus quis dictum orci. Duis rhoncus nisi eget ligula eleifend scelerisque. 
+                                Vestibulum ut dui egestas arcu volutpat lacinia quis vel urna. 
+                                Ut in ipsum et nunc consequat fringilla. Sed ipsum lectus, iaculis non nulla eget, fringilla hendrerit diam.
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            <!--Fine sezione about us-->
+
+
+            <div class="parallax-1">
+            </div>
+              
+            <!-- Brands-->
+            <div class="container-fluid section" id="brand">
+                <div class="row">
+                    <div class="titolo-1 col-md-2 justify-content-start">
+                        <h3>Our Brands</b></h3>
+                    </div>
+                </div>		
+
+                <!--Inserire i  Nav Tab con i loghi del brand-->
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link active" id="tabLink"  href="#kid" aria-controls="kid" role="tab" data-toggle="tab" aria-expanded="true">KID</a> 
+                                </li>
+                
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="tabLink"  href="#man" aria-controls="man" role="tab" data-toggle="tab" aria-expanded="true">MAN</a> 
+                                </li>
+        
+                                <li class="nav-item" role="presentation">
+                                    <a class="nav-link" id="tabLink" href="#woman" aria-controls="woman" role="tab" data-toggle="tab" aria-expanded="true">WOMAN</a> 
+                                 </li>
+                </ul>
+        
+                <!-- Tab Panes -->
+                <div class="tab-content">
+                    <div id="kid" class="tab-pane fade show active" role="tabpanel">
+                        <div class="row card-row">
+
+                            <div class="col-sm-6 col-md-4">
+                                <div class="card text">
+                                    <img src="img/loghi/logo-brums.png" class="card-img" width="239" height="134" alt="Brums">
+                                            <h5 class="card-title">Brums</h5>   
+                                </div>
+                            </div>
+                    
+                            <div class="col-sm-6 col-md-4">
+                                <div class="card text">
+                                    <img src="img/loghi/logo-mek.jpg" widht="239" height="134" class="card-img" alt="Mek">
+                                            <h5 class="card-title">Mek</h5>
+                                    </div>
+                            </div>
+        
+                           <!-- <div class="col-sm-6 col-md-4">
+                                <div class="card bg-dark text-white">
+                                    <img src="http://via.placeholder.com/239x134" class="card-img" alt="">
+                                        <div class="card-img-overlay">
+                                            <h5 class="card-title">Walter Boriello - Tenue de Plase</h5>
+                                        </div>
+                                </div>
+                            </div>-->
+        
+                            <!--<div class="col-sm-6 col-md-4">
+                                <div class="card bg-dark text-white">
+                                    <img src="http://via.placeholder.com/239x134" class="card-img" alt="Capri Vice">
+                                        <div class="card-img-overlay">
+                                            <h5 class="card-title">Walter Boriello - Capri Vice</h5>
+                                        </div>
+                                </div>
+                            </div>-->
+        
+                            <div class="col-sm-6 col-md-4">
+                                <div class="card text">
+                                    <img src="img/loghi/logo-walter-borriello-couture.jpg" class="card-img" height="134" width="239" alt="Walter Boriello - Couture">
+                                            <h5 class="card-title">Walter Boriello - Coture</h5>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div> 
+                
+                    <div id="man" class="tab-pane fade" role="tabpanel">
+                        <div class="row card-row">
+
+                            <!--<div class="col-sm-6 col-md-4">
+                                <div class="card bg-dark text-white">
+                                    <img src="http://via.placeholder.com/239x134" class="card-img" alt="Capri-Vice">
+                                        <div class="card-img-overlay">
+                                            <h5 class="card-title">Walter Boriello - Capri Vice</h5>
+                                        </div>
+                                </div>
+                            </div>-->
+        
+                            <div class="col-sm-6 col-md-4">
+                                <div class="card text">
+                                    <img src="img/loghi/logo-walter-borriello-couture.jpg" class="card-img" height="134" width="239" alt="Walter Boriello - Couture">
+                                            <h5 class="card-title">Walter Boriello - Coture</h5>
+                                </div>
+                            </div>
+        
+                           <!--<div class="col-sm-6 col-md-4">
+                                <div class="card bg-dark text-white">
+                                    <img src="http://via.placeholder.com/239x134" class="card-img" alt="">
+                                        <div class="card-img-overlay">
+                                            <h5 class="card-title">Card title</h5>
+                                        </div>
+                                </div>
+                            </div> -->
+        
+                        </div>
+                    </div>
+                
+                    <div id="woman" class="tab-pane fade" role="tabpanel">
+                        <div class="row card-row">
+        
+                            <div class="col-sm-6 col-md-4">
+                                <div class="card text">
+                                    <img src="img/loghi/logo-walter-borriello-couture.jpg" class="card-img" height="134" width="239" alt="Walter Boriello - Couture">
+                                            <h5 class="card-title">Walter Boriello - Coture</h5>
+                                </div>
+                            </div>
+        
+                           <!-- <div class="col-sm-6 col-md-4">
+                                <div class="card bg-dark text-white">
+                                    <img src="http://via.placeholder.com/239x134" class="card-img" alt="Walter Boriello - Capri Vice">
+                                        <div class="card-img-overlay">
+                                            <h5 class="card-title">Walter Boriello- Capri Vice</h5>
+                                        </div> 
+                                </div>
+                            </div> -->
+        
+                           <!-- <div class="col-sm-6 col-md-4">
+                                <div class="card bg-dark text-white">
+                                    <img src="http://via.placeholder.com/239x134" class="card-img" alt="">
+                                       <div class="card-img-overlay">
+                                            <h5 class="card-title">Prova</h5>
+                                        </div>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div> 
+        
+                </div>
+            </div>
+              
+            <div class="parallax-2">
+            </div>
+            <div class="container-fluid" id="note">
+                <div class="row">
+                <a class="credits col-1 col-md-3 offset-md-9" href="https://pixabay.com/it/photos/torino-panoramico-grande-citt%C3%A0-3294227/">
+                    <p>Background photo by nonmisvegliate- www.pixabay.com</p></a> 
+                </div> 
+                <hr>
+
+            </div>
+
+            <!--Sezione contatti + footer-->
+                <div class="container-fluid" id="foot">
+                    <div class="row">
+                        <div class="titolo-2 col-6 offset-md-6 justify-content-end">
+                            <h3 id="contatti">I nostri contatti</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <footer class="mastfoot mt-auto">
+                    <!-- Footer da dividere in due div -->
+                    <div class="inner"> 
+                            <div class="row"> 
+                                <form class="col-5 offset-1">
+                                    <div class="form"> 
+                                        <div class="row">
+                                            <input type="text" class="form-control col-5 offset-md-1" placeholder="Nome e Cognome">
+            
+                                            <input type="email" class="form-control col-5 offset-md-1" placeholder="La tua e-mail">
+                                        </div>
+            
+                                        <textarea class="form-control col-11 offset-1" id="exampleFormControlTextarea1" rows="3" placeholder="Scrivi qui"></textarea>
+                                    </div> 
+                                    <div>
+                                        <button type="submit" class="button btn btn-light offset-9">Invia</button>
+                                    </div> 
+                                </form> 
+                                <div class="contact col-5 offset-1">
+                                    <ul class="list-unstyled">
+                                        <li>Massucco Rappresentanze:</li>
+                                        <li>Indirizzo: Via Bologna 120 c/o ex-Lanificio, Torino</li>
+                                        <li>Telefono/Whatsapp: +39 389 6060171</li>
+                                        <li>E-mail: massucco.rappresentanze@gmail.com</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row justify-content-center">
+                                <div id="social" class="col-1 offeset-5">
+                                    <a class="face" href><i class="fab fa-2x fa-facebook-f"></i></a>
+                                    <a class="insta" href=""><i class="fab fa-2x fa-instagram"></i></a>
+                                </div>
+                            </div>
+        
+                            <hr>
+                            <div class="row justify-content-center credits">
+        
+                                <p>Copyrigth Massucco Rappresentanze 2020 P.I - Created By Carlo Cumino with <a href="https://getbootstrap.com/">Bootstrap</a>.</p>
+                            </div>
+                    </div>
+                </footer>
+        </main>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    </body>
+</html>
