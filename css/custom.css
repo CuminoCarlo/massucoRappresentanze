@@ -1,0 +1,186 @@
+body {
+    position: relative;
+    background-color: #fffdd0;
+}
+
+.section {
+    padding: 30px 10%;
+} 
+
+#brand{
+    background-color: white;
+}
+
+.img-fluid {
+    max-width:100%;
+    height: auto;
+    margin-top: 20px
+}
+
+#note{
+    background-color:white;
+    margin-top:0;
+    margin-bottom:0;
+    padding-bottom:2%;
+
+}
+
+.button{
+    border-color:black;
+    border-width:1px;
+}
+
+.button:hover{
+    background-color:darkgray;
+    border-color:black;
+}
+
+.credits {
+    font-size: 8pt;
+    color: black;
+    text-align: left;
+    margin-top: 0;
+}
+
+/* CSS barra nav*/
+ul.navbar-nav > li > a {
+    font-size: 20px;
+    position: relative;
+    padding: 10px 15px;
+    display: block;
+    color: black;
+}
+
+ul.navbar-nav > li> a:hover {
+    color:whitesmoke;
+    background-color: #555;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+.nav-tab .nav-link.active{
+    border-radius: 4px 4px 0 0;
+} 
+
+
+/* CSS titoli sezioni */
+h3 {
+    color:#77dd77;
+    text-shadow: 1px 1px black;
+}
+
+.titolo-1 {
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.titolo-2 {
+    margin-bottom: 25px;
+    text-align: right;
+} 
+
+/* CSS container fluid */
+.container-fluid {
+    margin-top: 2%;
+}
+
+/* CSS tabs */
+.nav-tab {
+	border-bottom: 1px solid;
+}
+
+.nav-tabs > li {
+	float: left;
+	margin-bottom: -1px;
+}
+
+.nav-tabs > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color:black;
+}
+
+.nav-tabs > li >a:hover{
+    background-color: #fff888;
+    color:black;
+    font-weight: bold;
+}
+
+/* CSS About */
+
+.about {
+    padding-top:3%;
+}
+
+/*CSS card immagini*/
+.card-row{
+    margin: 2% 0;
+}
+
+.card{
+    margin: 5% 0;
+    border:none;
+}
+
+.card-img{
+    border:2px;
+    border-color: black;
+}
+
+.card-title{
+    padding-top:2px;
+}
+
+/*CSS Footer*/
+footer{
+    padding: 15px 0;
+    background: #fff888;
+}
+
+input, textarea{
+    margin-bottom:3%;
+} 
+
+#foot{
+    margin-top:0;
+}
+
+#social > a {
+    background-color:#77dd77;
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+    border-radius:20px;
+    margin:1%;
+    border: 2px;
+}
+
+#social >a.face:hover{
+    background-color: #3b589e;
+}
+
+#social > a.insta:hover {
+    background-image:
+      linear-gradient(
+        to top left,
+        #f06d06, #8a3ab9, #e95950, #bc2a8d,
+        #fccc63, #fbad50, #cd486b, #4c68d7
+      );
+}
+
+
+.fa-facebook-f{
+    margin-left:7px;
+    margin-top:2px;
+    background-color: transparent;
+    color:white;
+}
+
+.fa-instagram{
+    margin-left:3px;
+    margin-top:2px;
+    background-color: transparent;
+    color:white;
+}
